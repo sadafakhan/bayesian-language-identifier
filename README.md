@@ -2,8 +2,8 @@
 ```bayesian-language-identifier``` labels text fragments according to their most probable language of origin.
 
 Args:
-* ```languagemodels```: a directory holding each language model (unigram frequency list), formatted as text files
-* ```input.txt```: a text file holding each sentence and its respective gold-standard language code
+* ```languagemodels```: directory holding each language model (unigram frequency list), formatted as text files
+* ```input.txt```: text file holding each sentence and its respective gold-standard language code
 
 Returns:
 * ```output.txt``` : a text file holding each sentence, its respective gold-standard language code, an enumeration of each language's probability of being the sentence's language, and the "result", i.e., the language with the highest calculated probability.
