@@ -6,7 +6,7 @@ Args:
 * ```input.txt```: text file holding each sentence and its respective gold-standard language code
 
 Returns:
-* ```output.txt``` : a text file holding each sentence, its respective gold-standard language code, an enumeration of each language's probability of being the sentence's language, and the "result", i.e., the language with the highest calculated probability.
+* ```output.txt``` : text file holding each sentence, its respective gold-standard language code, an enumeration of each language's probability of being the sentence's language, and the "result", i.e., the language with the highest calculated probability.
 
 To run: 
 ```
