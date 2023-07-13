@@ -1,5 +1,5 @@
 # bayesian-language-identifier
-A naïve Bayesian classifier that labels text fragments according to their most probable language of origin.
+```bayesian-language-identifier``` labels text fragments according to their most probable language of origin.
 
 Args:
 * ```languagemodels```: a directory holding each language model (unigram frequency list), formatted as text files
